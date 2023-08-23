@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #1B3536;  /*Deep Teal*/
+    --secondary-color: #194747;  /*shade of teal or blue-green*/
+    --font-family: 'Barlow", Sans-serif', sans-serif; 
+    --font-weight-normal: 400;
+    --font-weight-bold: 700; 
+    --font-size-small: 14px; 
+    --font-size-medium: 16px; 
+    --font-size-large: 20px; 
+    --light-color: #FFF;  /*white*/
+    --button-color: #46C3C6;
+  }
+
+  
