@@ -1,0 +1,75 @@
+@import "./variables.css";
+@import  "./reset.css";
+
+.Header {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--light-color);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-family);
+    color: var(--light-color);
+  }
+  
+  /* .navbar-menu {
+    display: none;
+  } */
+  .navbar a {
+    text-decoration: none;
+    color: var(--light-color);
+    cursor: pointer;
+
+    transition: all 0.3s ease-in;
+  }
+
+  .navbar a:hover {
+    color:  var(--button-color);
+  }
+  
+
+
+ /* Media query for larger screens */
+  @media (min-width: 768px) {
+    .Header {
+      /* Adjust styles for larger screens */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:20px 20px;
+    }
+  
+    /* .logo {
+      
+    } */
+  
+    .navbar {
+        display: flex;
+     flex-direction: row;
+    }
+  
+    /* .navbar a {
+    
+    } */
+  }
+  
+
+
+
+
+  
