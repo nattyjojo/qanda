@@ -1,7 +1,42 @@
-.fig{
+:root {
+    --primary-color: #1B3536;  /*Deep Teal*/
+    --secondary-color: #194747;  /*shade of teal or blue-green*/
+    --font-family: 'Barlow", Sans-serif', sans-serif; 
+    --font-weight-normal: 400;
+    --font-weight-bold: 700; 
+    --font-size-small: .7rem; 
+    --font-size-medium: 16px; 
+    --font-size-large: 20px; 
+    --light-color: #FFF;  /*white*/
+    --button-color: #46C3C6;
+    text-decoration: none;
+  }
+
+.figWrapper{
+    text-align: center;
+    line-height: 2rem;
+    background-color: var(--primary-color);
+    font-family: var( --font-family);
+    color: var( --light-color);
+    font-size: var(--font-size-small);
+}
+.footerFigContainer{
     display: flex;
-    align-items:baseline;
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+.fa-github{
+    margin-right: .3rem;
 }
 .title{
-    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-medium);
+    margin-bottom: 2rem;
 }
+/* .frontend{
+    float: left;
+    
+}
+.backend{
+    float: right;
+} */
