@@ -1,5 +1,7 @@
+import FooterContributor from "./components/footerContributors";
+import "./index.css";
 function App() {
-  return <>hello friends</>;
+  return <FooterContributor />;
 }
 
 export default App;

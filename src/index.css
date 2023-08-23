@@ -1,0 +1,7 @@
+.fig{
+    display: flex;
+    align-items:baseline;
+}
+.title{
+    text-align: center;
+}
