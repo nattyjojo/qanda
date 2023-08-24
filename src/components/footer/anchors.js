@@ -1,7 +1,7 @@
 let anchors = [
   {
     Repo: "https://github.com/nattyjojo?tab=repositories",
-    Photo: "https://avatars.githubusercontent.com/u/85810900?v=4",
+    photo: "https://avatars.githubusercontent.com/u/85810900?v=4",
     name: "John Chimezie",
   },
 ];
