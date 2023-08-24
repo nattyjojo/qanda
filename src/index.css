@@ -52,3 +52,24 @@ footer main{
 footer i{
     padding: .2rem;
 }
+
+
+form{
+    text-align: center;
+    line-height: 1.5rem;
+    background-color: var(--secondary-color);
+    display: inline-block;
+    margin-left: 40%;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.formTitle{
+    text-align: center;
+}
+.formBtn{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
