@@ -1,13 +1,20 @@
-import "./reset.css";
-import FooterContributor from "./components/footer/footerContributors";
+
+import FooterContributor from "./components/footerContributors";
 import "./index.css";
 import "./variables.css";
 import imageLinks from "./images/imageLink";
+import Header from "./components/Header";
+import "./Header.css";
+import './main.css'
+import Main from "./components/Main";
 import anchors from "./components/footer/anchors";
+
 
 function App() {
   return (
     <>
+      <Header />
+      <FooterContributor />
       <footer>
         <h6 className="footerTitle">Contributors</h6>
         <main>
