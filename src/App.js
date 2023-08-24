@@ -1,4 +1,3 @@
-import "./reset.css";
 import FooterContributor from "./components/footer/footerContributors";
 import "./index.css";
 import "./variables.css";
