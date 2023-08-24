@@ -1,7 +1,75 @@
-.fig{
-    display: flex;
-    align-items:baseline;
+:root {
+    --primary-color: #1B3536;  /*Deep Teal*/
+    --secondary-color: #194747;  /*shade of teal or blue-green*/
+    --font-family: 'Barlow", Sans-serif', sans-serif; 
+    --font-weight-normal: 400;
+    --font-weight-bold: 700; 
+    --font-size-small: .7rem; 
+    --font-size-medium: 16px; 
+    --font-size-large: 20px; 
+    --light-color: #FFF;  /*white*/
+    --button-color: #46C3C6;
+    text-decoration: none;
+  }
+*{
+    box-sizing: border-box;
 }
-.title{
+
+body{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    
+}
+
+
+footer{
     text-align: center;
+    
+    color: var(--light-color);
+}
+
+.footerTitle{
+    
+    margin-top: 2rem;
+} 
+.footerCard{
+    margin-bottom: 1rem;
+
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+footer img{
+    border-radius: 50%;
+}
+footer main{
+   display: flex;
+   padding: 0 20%;
+   line-height: 2rem;
+   text-align: center;
+}
+footer i{
+    padding: .2rem;
+}
+
+
+form{
+    text-align: center;
+    line-height: 1.5rem;
+    background-color: var(--secondary-color);
+    display: inline-block;
+    margin-left: 40%;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.formTitle{
+    text-align: center;
+}
+.formBtn{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
 }
