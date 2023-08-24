@@ -11,32 +11,44 @@
     --button-color: #46C3C6;
     text-decoration: none;
   }
+*{
+    box-sizing: border-box;
+}
 
-.figWrapper{
-    text-align: center;
-    line-height: 2rem;
+body{
     background-color: var(--primary-color);
-    font-family: var( --font-family);
-    color: var( --light-color);
-    font-size: var(--font-size-small);
-}
-.footerFigContainer{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 9rem;
-}
-.fa-github{
-    margin-right: .3rem;
-}
-.title{
-    font-weight: var(--font-weight-bold);
-    font-size: var(--font-size-medium);
-    margin-bottom: 2rem;
-}
-/* .frontend{
-    float: left;
+    color: var(--light-color);
     
 }
-.backend{
-    float: right;
-} */
+
+
+footer{
+    text-align: center;
+    
+    color: var(--light-color);
+}
+
+.footerTitle{
+    
+    margin-top: 2rem;
+} 
+.footerCard{
+    margin-bottom: 1rem;
+
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+footer img{
+    border-radius: 50%;
+}
+footer main{
+   display: flex;
+   padding: 0 20%;
+   line-height: 2rem;
+   text-align: center;
+}
+footer i{
+    padding: .2rem;
+}
