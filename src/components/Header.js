@@ -2,8 +2,9 @@ const Header = () =>  {
   return (
     <div  className='Header'>
       <div className="logo">
-      <img src="https://becode.org/wp-content/uploads/2023/01/becode-logo.png" alt="lolo img"  width= "80"/>
-       <h1>qanda</h1>
+       <h1>
+        &lt;/<span>be</span><span>codeqanda</span>&gt;
+       </h1>
       </div>
       <div className="navbar navbar-men">
         <a href="/Register">Register</a>
